@@ -5,7 +5,7 @@ const { OpenAI } = require('openai');
 
 const apiKey = process.env.OPENAI_API_KEY;
 if (!apiKey) {
-  console.error('Missing OPENAI_API_KEY in environment. See .env.example');
+  console.error('Missing OPENAI_API_KEY in environment. See .env');
   process.exit(1);
 }
 const client = new OpenAI({ apiKey });
@@ -82,3 +82,4 @@ async function main() {
 }
 
 main();
+
