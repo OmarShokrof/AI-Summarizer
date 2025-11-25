@@ -1,0 +1,13 @@
+{
+  "name": "ai-text-summarizer",
+  "version": "1.0.0",
+  "description": "CLI AI text summarizer using OpenAI API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "openai": "^4.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
